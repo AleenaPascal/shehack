@@ -34,7 +34,7 @@ p {
 /* Sections */
 
 .colored-section {
-  background-color: #ff4c68;
+  background-color: #822659;
   color: #fff;
 }
 
@@ -63,16 +63,11 @@ p {
   font-family: "Montserrat-Light";
 }
 
-/* Buttons */
-
-.download-button {
-  margin: 5% 3% 5% 0;
-}
 
 /* Title Section */
 
 #title {
-  background-color: #ff4c68;
+  background-color: #822659;
   color: #fff;
   text-align: left;
 }
@@ -87,7 +82,7 @@ p {
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
-  right: 30%;
+  right: 23%;
 }
 
 /* Features Section */
@@ -105,19 +100,22 @@ p {
 }
 
 .icon {
-  color: #ef8172;
+  color: #B34180;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #ff4c68;
+  color: #822659;
 }
 
 /* Testimonial Section */
+.mission{
+  padding-top: 45px;
+}
 
 #testimonials {
   text-align: center;
-  background-color: #ef8172;
+  background-color: #B34180;
 
 }
 
@@ -134,17 +132,6 @@ p {
   margin: 20px;
 }
 
-
-#press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
-}
-
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-
 /* brief Section */
 
 #brief {
@@ -159,14 +146,17 @@ p {
 .brief-column {
   padding: 3% 2%;
 }
+.navi-icon{
+  width: 10%;
+  padding: 5px;
+}
 
-/* CTA Section */
 
 
 /* Footer Section */
 
 #footer{
-  background-color:#ef8172;
+  background-color:#B34180;
 }
 .last{
   color: silver;
@@ -188,5 +178,6 @@ p {
     position: static;
     transform: rotate(0);
   }
+
 
 }
